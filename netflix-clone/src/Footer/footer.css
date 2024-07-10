@@ -1,0 +1,52 @@
+/* /* Footer Outer Container */
+.footer_outer_container {
+    background-color: #111; /* Set background color to dark gray */
+    color: grey; /* Set text color to gray */
+    display: flex; /* Arrange elements horizontally */
+    justify-content: center; /* Align content horizontally in the center */
+  }
+  
+  /* Footer Inner Container */
+  .footer_inner_container {
+    width: 60%; /* Set width to 60% of the parent container */
+  }
+  
+  Footer Icons */
+  /* .footer_icons {
+    display: flex; /* Arrange icons horizontally */
+    /*justify-content: space-between; /* Distribute icons evenly with space between */
+    /*margin-left: 10px; /* Add left margin */
+    /*color: #fff; /* Set text color to white */
+  
+  
+  /* Footer Data */
+  .footer_data {
+    display: flex; /* Arrange data sections horizontally */
+    flex-direction: column; /* Arrange data sections vertically */
+    justify-content: space-around; /* Distribute data sections evenly with space between */
+    height: 12vh; /* Set height to 12% of viewport height */
+    background-color: blue; /* Set background color to blue */ /* Uncomment to enable */
+  }
+  
+  /* Footer Data List Items */
+  .footer_data ul li {
+    cursor: pointer; /* Set cursor to pointer on hover */
+  }
+  
+  /* Service Code */
+  .service-code {
+    display: flex; /* Arrange elements horizontally */
+    align-items: center; /* Align content vertically in the center */
+    justify-content: center; /* Align content horizontally in the center */
+    border: 1px solid #fff; /* Add white border */
+    width: 10%; /* Set width to 10% of the parent container */
+    margin: 10px 0; /* Add top and bottom margin */
+    cursor: pointer; /* Set cursor to pointer on hover */
+  }
+  
+  /* Copyright */
+  .copy-write {
+    font-size: 12px; /* Set font size */
+    margin-bottom: 10px; /* Add bottom margin */
+  }
+  
